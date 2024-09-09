@@ -1,0 +1,115 @@
+body {
+    font-family: 'Quicksand',sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #4d87e3; /* Warna latar belakang kotak utama */
+    padding: 30px;
+    border-radius: 15px; /* Sudut membulat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #74a5f2; /* Warna latar belakang navigasi */
+    border-radius: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+    border-radius: 5px;
+}
+
+main {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content table th,.content table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.content table th {
+    width: 30%;
+    background-color: #f2f2f2;
+}
+
+.galeri_content table tr td{
+    table-layout: fixed;
+    width: fit-content;
+    border: 9px solid rgba(81, 87, 86, 0.5); /* Border di sekitar setiap gambar */
+    padding: 0; 
+    border-radius: 20px; 
+    box-shadow: 6px 7px 5px rgba(0, 0, 0, 0.2);
+}
+
+.galeri_content table{
+    border-collapse: separate;
+    border-spacing: 23px; /* Jarak antar gambar */
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    border-radius: 10px;
+}
